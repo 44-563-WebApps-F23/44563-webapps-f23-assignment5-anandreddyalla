@@ -21,27 +21,31 @@
 
 <body>
 
-    <div class="container">
-        <div class="row">
-            <nav class="navbar navbar-expand-md navbar-light bg-secondary">
-                <a class="navbar-brand  text-white" href="#" style="padding-left: 10px;">A Few Cities</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link  text-white" href="basic.html">Basic</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  text-white" href="advanced.html">Advanced</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        
+    <div class="container-fluid bg-secondary">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand  text-white" href="cities.html" style="padding-left: 10px;">A Few Cities</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link  text-white" href="basic.html">Basic</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  text-white" href="advanced.html">Advanced</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            
+            </div>
         </div>
     </div>
+
+    
 
     <div class="container">
         <div class="row">
@@ -73,8 +77,9 @@
         <p><b>Ans:</b> The city names row ("Atlanta, Los Angeles, London, Amsterdam, Adelaide, Nebraska") will break first as the screen size is gradually decreased since they are set to adapt to medium-sized displays (col-md-2 medium devices - screen width equal to or greater than 768px). Only when the screen size is severely lowered (col-sm-2 small devices - screen width equal to or greater than 576px) will the letter row wrap to the following row and continue to horizontally contract. This is a result of the responsive nature of the Bootstrap grid framework.</p>
     </div>
 
-    <div class="container mb-2">
+    <div class="container mb-2 mt-4">
         <div class="row">
+            <h3 style="text-align: center;"><span style="font-weight: bold;">Thumbnail</span> Images</h3>
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <img src="Images/Atlanta.jpg" class="img-fluid img-thumbnail">
             </div>
@@ -87,8 +92,9 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container mt-4">
         <div class="row">
+            <h3 style="text-align: center;"><b>Table </b>& Style</h3>
             <caption>Table of Letters, Cities, Rivers, and Trees</caption>
             <table class="table table-success table-striped table-hover">
                <tbody>
@@ -170,8 +176,9 @@
         
     </div>
 
-    <div class="container mb-2">
+    <div class="container mb-2 mt-4">
         <div class="row">
+            <h3 style="text-align: center;"><b>Dropdown</b></h3>
             <div class="dropdown" style="text-align: center;">
                 <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Dropdown
@@ -186,8 +193,9 @@
     
     <p style="margin-bottom: 25px;"></p>
 
-    <div class="container">
+    <div class="container mb-2">
         <div class="row">
+            <h3><b>Contact </b>Form</h3>
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 bg-light p-3">
                 <form>
                     <!-- First form-group -->
@@ -217,6 +225,44 @@
 
             </div>
         </div>    
+    </div>
+
+    <div class="container mt-4">
+        <div class="row">
+            <h3 style="text-align: center;"><b>Bonus</b></h3>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="card">
+                    <img src="Images/Atlanta.jpg" class="card-img-top" alt="Atlanta">
+                    <div class="card-body">
+                        <h5 class="card-title">Atlanta</h5>
+                        <p class="card-text">Atlanta is the capital and largest city of the U.S. state of Georgia, known for its dynamic blend of Southern charm and modernity. It's a major cultural and economic hub, home to diverse neighborhoods, thriving businesses, and a rich history.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="card">
+                    <img src="Images/London.jpg" class="card-img-top" alt="London">
+                    <div class="card-body">
+                        <h5 class="card-title">London</h5>
+                        <p class="card-text">London, the capital of the United Kingdom, is a global metropolis renowned for its rich history, iconic landmarks, and cultural diversity. It's home to world-famous attractions such asthe Tower of London, Buckingham Palace.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="card">
+                    <img src="Images/Nebraska.jpg" class="card-img-top" alt="Nebraska">
+                    <div class="card-body">
+                        <h5 class="card-title">Nebraska</h5>
+                        <p class="card-text">Nebraska City, located in the state of Nebraska, is a charming and historic community known for its scenic beauty and agricultural heritage. Situated along the Missouri River, it offers picturesque views and a relaxed, small-town atmosphere.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <p style="margin-bottom: 200px;"></p>
